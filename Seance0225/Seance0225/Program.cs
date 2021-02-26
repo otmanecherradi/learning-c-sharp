@@ -9,8 +9,6 @@ namespace Seance0225
             // Seance feb 25th, in class
 
 
-            //Console.WriteLine("\n-------------------------------------------------------\n");
-
             // test of class Produit
             Console.WriteLine("# Exercice 4 #\n");
 
@@ -40,6 +38,20 @@ namespace Seance0225
                     Console.WriteLine("{0} sup", p1.Description);
                     break;
             }
+
+            Console.WriteLine("\n-------------------------------------------------------\n");
+
+            // test of class Article
+            Console.WriteLine("# Exercice 4 #\n");
+
+            Article a1 = new Article(111, "Description", 700, DateTime.Parse("12/12/2016"));
+            Article a2 = new Article();
+            a2.Numero = 123;
+            a2.Description = "Description";
+            a2.DateExperation = DateTime.Now;
+
+            a1.AfficherDetails();
+            a2.AfficherDetails();
 
 
 
