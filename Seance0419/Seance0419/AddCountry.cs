@@ -19,7 +19,10 @@ namespace Seance0419
 
         private void openFile_Click(object sender, EventArgs e)
         {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.ShowDialog();
 
+            string path = openFileDialog.FileName.ToString();
         }
     }
 }

@@ -8,7 +8,7 @@ using System.Drawing;
 
 namespace Seance0419
 {
-    class Country
+    public class Country
     {
         public Image Flag { get; set; }
         public string Name { get; set; }

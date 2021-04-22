@@ -12,6 +12,9 @@ namespace Seance0419
 {
     public partial class Form3 : Form
     {
+
+        public static List<Country> CountriesList = new List<Country>();
+
         public Form3()
         {
             InitializeComponent();
